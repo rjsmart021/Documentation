@@ -7,7 +7,6 @@ from production.schemas import CustomerSchema
 
 Customer_schema = CustomerSchema()
 
-
 @app.route('/customer', methods=['POST'])
 def add_Customer():
     """
