@@ -10,7 +10,7 @@ class ProductionSchema(ma.Schema):
 
     class Meta:
         fields = ("id", "product_id", "quantity_produced", "date_produced")
-
+        
 # Create instances of the schema
 production_schema = ProductionSchema()
 productions_schema = ProductionSchema(many=True)
