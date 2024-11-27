@@ -5,6 +5,7 @@ from typing import List
 # from models.order import Order
 # from models.production import Production
 
+
 class Product(Base):
     __tablename__ = "products"
     id: Mapped[int] = mapped_column(primary_key=True)
