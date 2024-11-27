@@ -2,6 +2,7 @@ from sqlalchemy.orm import Session
 from database import db
 from models.customer import Customer
 
+
 # Creates new customer
 def save(customer_data):
     with Session(db.engine) as session:
