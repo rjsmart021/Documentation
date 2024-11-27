@@ -4,6 +4,7 @@ from sqlalchemy.orm import Mapped, mapped_column
 # from models.customer import Customer
 # from models.product import Product
 
+
 class Order(Base):
     __tablename__ = "orders"
     id: Mapped[int] = mapped_column(primary_key=True)
