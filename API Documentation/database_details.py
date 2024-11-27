@@ -1,6 +1,5 @@
 import os
 
-
 class DataBaseDetails:
 
     def __init__(self):
