@@ -2,6 +2,7 @@ from database import db, Base
 from sqlalchemy.orm import Mapped, mapped_column
 from typing import List
 
+
 # from models.order import Order
 
 class Customer(Base):
