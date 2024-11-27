@@ -2,6 +2,7 @@ from database import db, Base
 from sqlalchemy.orm import Mapped, mapped_column
 import datetime
 
+
 # from models.product import Product
 
 class Production(Base):
