@@ -7,7 +7,6 @@ from production.schemas import EmployeSchema
 
 Employe_schema = EmployeSchema()
 
-
 @app.route('/Employe', methods=['POST'])
 def add_Employe():
     """
