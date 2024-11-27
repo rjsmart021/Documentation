@@ -4,7 +4,6 @@ from Playlist import app
 
 ma = Marshmallow()
 
-
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
